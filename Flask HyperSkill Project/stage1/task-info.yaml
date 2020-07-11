@@ -1,0 +1,4 @@
+type: edu
+files:
+- name: web/main.py
+  visible: true
