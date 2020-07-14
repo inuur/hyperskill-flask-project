@@ -2,3 +2,11 @@ type: edu
 files:
 - name: web/main.py
   visible: true
+- name: flasktest/flask_test.py
+  visible: true
+- name: driver/downloads/chromedriver.exe
+  visible: true
+- name: web/test.py
+  visible: true
+- name: web/test_sub.py
+  visible: true
