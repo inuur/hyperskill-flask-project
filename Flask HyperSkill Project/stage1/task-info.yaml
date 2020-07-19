@@ -1,6 +1,6 @@
 type: edu
 files:
-- name: driver/downloads/chromedriver.exe
+- name: hstest/driver/downloads/chromedriver.exe
   visible: true
 - name: hstest/django_test.py
   visible: false
@@ -17,4 +17,6 @@ files:
 - name: tests.py
   visible: false
 - name: web/app.py
+  visible: true
+- name: hstest/driver/driver.py
   visible: true

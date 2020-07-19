@@ -2,7 +2,7 @@ from hstest.check_result import CheckResult
 from hstest.test_case import TestCase
 from hstest.flask_test import FlaskTest
 
-from driver.driver import get_driver
+from hstest.driver.driver import get_driver
 
 from time import sleep
 
