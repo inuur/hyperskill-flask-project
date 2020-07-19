@@ -11,8 +11,6 @@ MAC = 'Darwin'
 
 cur_dir = os.path.dirname(__file__)
 
-print(cur_dir)
-
 ZIP_DOWNLOAD_PATH = f'{cur_dir}{os.sep}downloads{os.sep}driver.zip'
 WINDOWS_DRIVER_PATH = f'{cur_dir}{os.sep}downloads{os.sep}chromedriver.exe'
 LINUX_DRIVER_PATH = f'{cur_dir}{os.sep}downloads{os.sep}chromedriver'
@@ -29,11 +27,13 @@ def get_driver():
     if system == WINDOWS:
         if not os.path.exists(WINDOWS_DRIVER_PATH):
             download(WINDOWS_DRIVER_LINK)
+        os.system('set FLASK_APP=app')
         return _get_windows_driver()
 
     if system == LINUX:
         if not os.path.exists(LINUX_DRIVER_PATH):
             download(LINUX_DRIVER_LINK)
+
         return _get_linux_driver()
 
     if system == MAC:
@@ -41,7 +41,7 @@ def get_driver():
             download(MAC_DRIVER_LINK)
         return _get_mac_driver()
 
-    raise Exception("Can't detect OS name")
+    raise Exception("Can't detect the OS name")
 
 
 def _get_windows_driver():
