@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: web/app.py
+  visible: true
+- name: web/templates/index.html
+  visible: true
+- name: tests.py
+  visible: false
+- name: web/static/style.css
+  visible: true
+- name: web/static/img/sunny.png
+  visible: true

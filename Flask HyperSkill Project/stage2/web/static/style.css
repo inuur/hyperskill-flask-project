@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  background: linear-gradient(#836273, #373252);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vh;
+  height: 70vh;
+  border-radius: 3px;
+  margin: auto;
+}
+
+.city-input {
+  width: 55%;
+  height: 4vh;
+}
+
+.input-form {
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.bt {
+  height: 4vh;
+  margin-left: 5px;
+  border: none!important;
+  outline: 0 !important;
+  width: 70px;
+  background-color: #373252;
+  color: white;
+}
+
+.cards {
+  margin-top: 35px;
+}
+
+.card {
+  height: 50vh;
+  width: 30vh;
+  border-radius: 0;
+  border: 0;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
