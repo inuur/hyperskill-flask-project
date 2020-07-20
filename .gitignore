@@ -11,7 +11,7 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-Flask HyperSkill Project/stage1/hstest/driver/downloads/
+Flask HyperSkill Project/driver/downloads/
 eggs/
 .eggs/
 lib/
