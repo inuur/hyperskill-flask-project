@@ -1,11 +1,15 @@
 html, body {
-  height: 100%;
+  min-height: 100vh;
   background: linear-gradient(#836273, #373252);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 .center-div {
+  /* background-color: red; */
   position: absolute;
   margin: auto;
   top: 0;
@@ -35,26 +39,80 @@ html, body {
 
 .bt {
   height: 4vh;
-  margin-left: 5px;
+  margin-left: 1%;
   border: none!important;
   outline: 0 !important;
-  width: 70px;
+  width: 10vh;
   background-color: #373252;
   color: white;
+  font-size: 2vh;
 }
 
 .cards {
   margin-top: 35px;
+  width: 100%;
+  justify-content: space-around;
+  overflow: auto !important;
 }
 
 .card {
   height: 50vh;
-  width: 30vh;
+  width: 30%;
+  min-width: 30vh;
+  max-width: 30vh;
   border-radius: 0;
   border: 0;
   margin-left: 10px;
-  display: inline-block;
   border-radius: 2px;
   background-size: cover;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 7px;
+  color:  white;
+  display: flex;
+  float: left;
+  margin-left: 22px;
+  margin-bottom: 20px;
+}
+
+
+.degrees {
+	text-align: center;
+	font-size: 40px;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.degrees span {
+	align-self: flex-end;
+}
+
+.state {
+	font-size: 20px;
+	text-align: center;
+	height: 55%;
+}
+
+.day {
+	color: black !important;
+}
+
+.city {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 0px 0px 20px #000000;
+}
+
+.delete-wrapper {
+	height: 5%;
+	text-align: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.delete-wrapper a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
 }
