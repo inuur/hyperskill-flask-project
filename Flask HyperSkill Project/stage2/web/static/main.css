@@ -1,0 +1,49 @@
+#cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+	grid-gap: 2vw;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#cards > div {
+	font-size: 5vw;
+	padding: .5em;
+	background: gold;
+	text-align: center;
+}
+
+html, body {
+	min-height: 100vh;
+	background: linear-gradient(#836273, #373252);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+.form {
+	margin-top: 8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 4%;
+}
+
+input {
+	border: none;
+	outline: none;
+	height: 4vw;
+	width: 40vw;
+	border-radius: 0.25vw;
+}
+
+.submit-button {
+	margin-left: 1vw;
+	height: 4vw;
+	width: 9vw;
+	font-size: 2vw;
+	border: none;
+	outline: none !important;
+	border-radius: 0.25vw;
+}

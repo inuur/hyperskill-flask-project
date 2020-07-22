@@ -1,22 +1,4 @@
 type: edu
 files:
-- name: hstest/driver/downloads/chromedriver.exe
-  visible: true
-- name: hstest/django_test.py
-  visible: false
-- name: hstest/exceptions.py
-  visible: false
-- name: hstest/flask_test.py
-  visible: false
-- name: hstest/stage_test.py
-  visible: false
-- name: hstest/test_case.py
-  visible: false
-- name: hstest/test_helper.py
-  visible: false
-- name: tests.py
-  visible: false
 - name: web/app.py
-  visible: true
-- name: hstest/driver/driver.py
   visible: true
