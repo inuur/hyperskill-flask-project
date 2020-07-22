@@ -8,24 +8,49 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
           crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-
 <div class="form">
     <input type="text" placeholder="Enter a city name">
     <button type="submit" class="submit-button">Add</button>
 </div>
-<div id="cards">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
+<div class="cards">
+    <div class="card hight">
+        <div class="delete-wrapper"><a href="">&#10006;</a></div>
+        <div class="degrees"><span>9°</span></div>
+        <div class="state">Chilly</div>
+        <div class="city">BOSTON</div>
+    </div>
+
+    <div class="card day">
+        <div class="delete-wrapper"><a href="">&#10006;</a></div>
+        <div class="degrees"><span>32°</span></div>
+        <div class="state">Sunny</div>
+        <div class="empty"></div>
+        <div class="city">NEW YORK</div>
+    </div>
+
+
+    <div class="card evening-morning">
+        <div class="delete-wrapper"><a href="">&#10006;</a></div>
+        <div class="degrees"><span>-15°</span></div>
+        <div class="state">Cold</div>
+        <div class="empty"></div>
+        <div class="city">EDMONTON</div>
+    </div>
+
+
+    <!--        <div class="card hight"></div>-->
+    <!--        <div class="card day"></div>-->
+    <!--        <div class="card evening-morning"></div>-->
+    <!--        <div class="card hight"></div>-->
+    <!--        <div class="card day"></div>-->
+    <!--        <div class="card evening-morning"></div>-->
+    <!--        <div class="card hight"></div>-->
+    <!--        <div class="card day"></div>-->
+    <!--        <div class="card evening-morning"></div>-->
 </div>
 </body>
 </html>

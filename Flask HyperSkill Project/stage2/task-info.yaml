@@ -8,5 +8,13 @@ files:
   visible: false
 - name: web/static/style.css
   visible: true
-- name: web/static/img/sunny.png
+- name: web/static/main.css
+  visible: true
+- name: web/templates/main.html
+  visible: true
+- name: web/static/img/day.jpg
+  visible: true
+- name: web/static/img/evening-morning.jpg
+  visible: true
+- name: web/static/img/night.jpg
   visible: true
