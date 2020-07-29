@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: web/app.py
+  visible: true
+- name: web/templates/index.html
+  visible: true
+- name: web/static/style.css
+  visible: true
+- name: web/static/img/day.jpg
+  visible: true
+- name: web/static/img/evening-morning.jpg
+  visible: true
+- name: web/static/img/night.jpg
+  visible: true
+- name: web/test.py
+  visible: true

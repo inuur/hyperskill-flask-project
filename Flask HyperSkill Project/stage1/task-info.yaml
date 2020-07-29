@@ -2,3 +2,5 @@ type: edu
 files:
 - name: web/app.py
   visible: true
+- name: tests.py
+  visible: true

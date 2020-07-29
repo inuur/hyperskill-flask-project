@@ -1,0 +1,8 @@
+type: edu
+files:
+- name: hstest/tests.py
+  visible: true
+- name: web/app.py
+  visible: true
+- name: web/sqlite.db
+  visible: true
